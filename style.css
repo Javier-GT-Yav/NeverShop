@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  font-size: 1.6rem;
+}
+.dropdown-item{
+  font-size: 1.4rem;
+}
+.navbar-brand {
+  margin-left: 38%;
+  font-size: 2rem;
+}
+.options { 
+  width: 100vw;
+  height: 3.8rem;
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: space-evenly;
+}
+.categoria {
+  width: 9rem;
+  height: 3.8rem;
+  padding: 1.6%;
+  font-size: 1.5rem;
+}
+.categoria a {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+.categoria a:hover {
+  text-decoration: underline;
+}
